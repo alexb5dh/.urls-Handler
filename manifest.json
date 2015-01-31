@@ -1,0 +1,22 @@
+{
+  "name": ".urls Handler",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Downloads all files from .urls list instead of downloading list itself.",
+  "permissions": [
+    "downloads",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}
